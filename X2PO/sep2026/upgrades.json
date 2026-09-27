@@ -485,7 +485,13 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "factions": [
+                    "galacticrepublic"
+                ]
+            }
+        ],
         "slots": [
             "Astromech"
         ]
@@ -742,7 +748,18 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "factions": [
+                    "resistance"
+                ]
+            },
+            {
+                "keywords": [
+                    "X-wing"
+                ]
+            }
+        ],
         "slots": [
             "Cannon"
         ]
@@ -3263,7 +3280,13 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "factions": [
+                    "galacticrepublic"
+                ]
+            }
+        ],
         "slots": [
             "Crew"
         ]
@@ -3277,7 +3300,13 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "factions": [
+                    "firstorder"
+                ]
+            }
+        ],
         "slots": [
             "Crew"
         ]
@@ -3291,7 +3320,13 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "factions": [
+                    "rebelalliance"
+                ]
+            }
+        ],
         "slots": [
             "Crew"
         ]
@@ -3311,7 +3346,13 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "factions": [
+                    "galacticrepublic"
+                ]
+            }
+        ],
         "slots": [
             "Crew"
         ]
@@ -3339,7 +3380,13 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "factions": [
+                    "galacticrepublic"
+                ]
+            }
+        ],
         "slots": [
             "Crew"
         ]
@@ -3353,7 +3400,13 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "factions": [
+                    "galacticrepublic"
+                ]
+            }
+        ],
         "slots": [
             "Crew"
         ]
@@ -3367,7 +3420,13 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "factions": [
+                    "galacticrepublic"
+                ]
+            }
+        ],
         "slots": [
             "Crew"
         ]
@@ -3381,7 +3440,13 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "factions": [
+                    "galacticrepublic"
+                ]
+            }
+        ],
         "slots": [
             "Crew",
             "Gunner"
@@ -3396,7 +3461,13 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "factions": [
+                    "firstorder"
+                ]
+            }
+        ],
         "slots": [
             "Crew"
         ]
@@ -3410,7 +3481,18 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "factions": [
+                    "galacticrepublic"
+                ]
+            },
+            {
+                "action": {
+                    "type": "Rotate Arc"
+                }
+            }
+        ],
         "slots": [
             "Crew",
             "Gunner"
@@ -3425,7 +3507,13 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "factions": [
+                    "firstorder"
+                ]
+            }
+        ],
         "slots": [
             "Crew"
         ]
@@ -4557,7 +4645,18 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "sizes": [
+                    "Small"
+                ]
+            },
+            {
+                "action": {
+                    "type": "Boost"
+                }
+            }
+        ],
         "slots": [
             "Force Power"
         ]
@@ -5081,7 +5180,13 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "factions": [
+                    "galacticrepublic"
+                ]
+            }
+        ],
         "slots": [
             "Gunner"
         ]
@@ -5095,7 +5200,13 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "factions": [
+                    "galacticrepublic"
+                ]
+            }
+        ],
         "slots": [
             "Gunner"
         ]
@@ -5123,7 +5234,14 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "factions": [
+                    "separatistalliance",
+                    "scumandvillainy"
+                ]
+            }
+        ],
         "slots": [
             "Gunner"
         ]
@@ -5151,7 +5269,13 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "factions": [
+                    "rebelalliance"
+                ]
+            }
+        ],
         "slots": [
             "Gunner"
         ]
@@ -5590,7 +5714,13 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "action": {
+                    "type": "SLAM"
+                }
+            }
+        ],
         "slots": [
             "Illicit"
         ]
@@ -6748,7 +6878,16 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "factions": [
+                    "separatistalliance"
+                ]
+            },
+            {
+                "solitary": true
+            }
+        ],
         "slots": [
             "Tactical Relay"
         ]
@@ -7905,7 +8044,13 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "action": {
+                    "type": "Lock"
+                }
+            }
+        ],
         "slots": [
             "Tech"
         ]
@@ -7964,7 +8109,13 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "factions": [
+                    "firstorder"
+                ]
+            }
+        ],
         "slots": [
             "Tech",
             "Modification"
@@ -7979,7 +8130,13 @@
         "standard": true,
         "wildspace": true,
         "epic": true,
-        "restrictions": [],
+        "restrictions": [
+            {
+                "initiative": {
+                    "max": 3
+                }
+            }
+        ],
         "slots": [
             "Tech"
         ]

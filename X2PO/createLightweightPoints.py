@@ -3,16 +3,6 @@ import json
 import os
 import sys
 
-EXTRA_RESTRICTIONS = {
-    "stabilizedsfoils": [{"ships": ["asf01bwing"]}],
-    "repulsorliftstabilizers": [{"ships": ["hmpdroidgunship"]}],
-    "alpha3bbesh": [{"ships": ["nimbusclassvwing"]}],
-    "alpha3eesk": [{"ships": ["nimbusclassvwing"]}],
-    "interceptbooster": [{"ships": ["droidtrifighter"]}],
-    "maneuverassistmgk300": [{"ships": ["tierbheavy"]}],
-    "targetassistmgk300": [{"ships": ["tierbheavy"]}],
-}
-
 
 def resolve_data_paths(input_path: Path):
     if (input_path / "manifest.json").is_file():
@@ -78,8 +68,6 @@ def buildUpgradeDatabase(path: Path):
             ):
                 print(f"Upgrade: {upgrade['name']}")
                 restrictions = upgrade.get("restrictions", [])
-                if not restrictions and upgrade["xws"] in EXTRA_RESTRICTIONS:
-                    restrictions = EXTRA_RESTRICTIONS[upgrade["xws"]]
 
                 db[upgrade["xws"]] = {
                     "name": upgrade["name"],
